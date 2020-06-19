@@ -163,14 +163,18 @@ background HTTP requests.
 :pencil2: The page contains a request to a image called `fire.gif`. See if you can locate the request in the list:
 
 - How big is the image?
+400 KB
 - How long did it take to download and display the image?
+0 ms
 - What is the status of the request?
+200
 
 :pencil2: Open the following page: http://output.jsbin.com/rezuhiv
 :pencil2: Follow the steps above to record network activity
 :question: Can you spot what's wrong by looking at the list of requests? (Hint: Errors are light-red).
-
+the "e" in fire.gif is missing
 - What is the status code of the failed request?
+404
 
 > :book: Read more about the _Network_ panel in DevTools here: https://developers.google.com/web/tools/chrome-devtools/network-performance/resource-loading
 
